@@ -22,6 +22,5 @@ public class Client {
         controller.open();
         controller.change();
         controller.close();
-
     }
 }

@@ -8,19 +8,20 @@
  * Date          Version       Name            Description
  * 2019/1/12 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no2_structural_pattern.no5.Facade;
+package com.gcl.designpattern.no2_structural_pattern.no5.facade;
 
 /**
  * Description:
  *
  * @author guchaolong
- * @date 2019/1/12 19:28
+ * @date 2019/1/12 19:37
  */
-public class Air {
-    public void on(){
-        System.out.println("空调打开");
-    }
-    public void off(){
-        System.out.println("空调关闭");
+public class Client {
+    public static void main(String[] args) {
+        Facaed facaed = new Facaed();
+        System.out.println("打开");
+        facaed.on();
+        System.out.println("关闭");
+        facaed.off();
     }
 }

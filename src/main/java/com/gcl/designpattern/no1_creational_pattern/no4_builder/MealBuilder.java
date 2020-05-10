@@ -11,12 +11,11 @@
 package com.gcl.designpattern.no1_creational_pattern.no4_builder;
 
 /**
- * Description:
+ * Description:KFC套餐组成
  *
  * @author guchaolong
  * @date 2019/1/7 2:05
  */
-//KFC套餐组成
 public abstract class MealBuilder {
     protected Meal meal = new Meal();
 

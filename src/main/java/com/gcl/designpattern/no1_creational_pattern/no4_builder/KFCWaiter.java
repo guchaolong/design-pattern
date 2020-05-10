@@ -11,13 +11,12 @@
 package com.gcl.designpattern.no1_creational_pattern.no4_builder;
 
 /**
- * Description:
+ * Description:服务员 （指挥者）
  *
  * @author guchaolong
  * @date 2019/1/7 2:15
  */
 
-//服务员 （指挥者）
 public class KFCWaiter {
     private MealBuilder mb;
 

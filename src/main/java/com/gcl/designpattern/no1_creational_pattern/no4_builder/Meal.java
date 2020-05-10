@@ -11,12 +11,11 @@
 package com.gcl.designpattern.no1_creational_pattern.no4_builder;
 
 /**
- * Description:
+ * Description:KFC套餐
  *
  * @author guchaolong
  * @date 2019/1/7 2:04
  */
-//KFC套餐
 public class Meal {
     private String food;
     private String drink;

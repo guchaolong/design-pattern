@@ -19,8 +19,10 @@ package com.gcl.designpattern.no1_creational_pattern.no6_singleton;
 
 /**
  * 饿汉式
- *
- * 加载EagerSingleton类时就会生成
+ * <p>
+ * 加载EagerSingleton类时就会生成实例，JVM保证线程安全
+ * 简单实用，推荐！
+ * 唯一缺点，不管用到与否，类加载时就会创建实例
  */
 public class EagerSingleton {
     private static final EagerSingleton eagerSingleton = new EagerSingleton();

@@ -29,6 +29,17 @@ public class LazySingleton {
     }
 
     /**
+     * 非线程安全
+     * @return
+     */
+    public static LazySingleton getInstance0(){
+        if(instance == null){
+            instance = new LazySingleton();
+        }
+        return instance;
+    }
+
+    /**
      * 加上synchronized，防止多线程同时首次访问,因为是加在方法上，效率不高
      * @return
      */

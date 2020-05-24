@@ -26,5 +26,8 @@ public class Client {
         LazySingleton o4 = LazySingleton.getInstance();
         System.out.println(o3==o4);
 
+        //枚举实现单例
+        SingletonEnum.INSTANCE.doSomething();
+
     }
 }

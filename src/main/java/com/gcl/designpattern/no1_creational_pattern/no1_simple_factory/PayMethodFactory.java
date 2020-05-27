@@ -25,6 +25,7 @@ package com.gcl.designpattern.no1_creational_pattern.no1_simple_factory;
  */
 public class PayMethodFactory {
     public static AbstractPay getPay(String pay){
+        //此处可以有前置操作，如权限判断、日志记录等
         if("cash".equals(pay)){
             return new CashPay();
         }else if("creditcard".equals(pay)){

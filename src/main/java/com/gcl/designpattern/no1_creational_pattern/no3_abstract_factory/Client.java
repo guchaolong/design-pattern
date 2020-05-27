@@ -16,6 +16,10 @@ package com.gcl.designpattern.no1_creational_pattern.no3_abstract_factory;
  * @author guchaolong
  * @date 2019/1/7 1:26
  */
+
+/**
+ * 调用方
+ */
 public class Client {
     public static void main(String[] args) {
         //连接数据库，需要connection statement,我不关心怎么产生，给我我需要的就行

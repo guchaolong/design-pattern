@@ -16,6 +16,10 @@ package com.gcl.designpattern.no1_creational_pattern.no3_abstract_factory;
  * @author guchaolong
  * @date 2019/1/7 1:20
  */
+
+/**
+ * 具体产品
+ */
 public class OracleConnection implements Connection {
     @Override
     public void connection() {

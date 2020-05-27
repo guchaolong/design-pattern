@@ -16,6 +16,10 @@ package com.gcl.designpattern.no1_creational_pattern.no3_abstract_factory;
  * @author guchaolong
  * @date 2019/1/7 1:21
  */
+
+/**
+ * 抽象产品
+ */
 public interface Statement {
     void statement();
 }

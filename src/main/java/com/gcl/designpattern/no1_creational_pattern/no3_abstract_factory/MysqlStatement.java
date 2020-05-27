@@ -16,6 +16,10 @@ package com.gcl.designpattern.no1_creational_pattern.no3_abstract_factory;
  * @author guchaolong
  * @date 2019/1/7 1:22
  */
+
+/**
+ * 具体产品
+ */
 public class MysqlStatement implements Statement {
     @Override
     public void statement() {

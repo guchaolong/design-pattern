@@ -16,6 +16,10 @@ package com.gcl.designpattern.no1_creational_pattern.no3_abstract_factory;
  * @author guchaolong
  * @date 2019/1/7 1:25
  */
+
+/**
+ * 具体工厂
+ */
 public class MysqlFactory implements ConnectionAndStatementFactory {
     @Override
     public Connection getCon() {

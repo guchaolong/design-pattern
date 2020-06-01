@@ -10,6 +10,8 @@
  */
 package com.gcl.designpattern.no2_structural_pattern.no1_adapter;
 
+import org.springframework.boot.autoconfigure.web.servlet.DispatcherServletAutoConfiguration;
+
 /**
  * Description:
  *

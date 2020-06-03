@@ -8,21 +8,17 @@
  * Date          Version       Name            Description
  * 2019/1/10 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no2_structural_pattern.no2_bridge;
+package com.gcl.designpattern.no2_structural_pattern.no2_bridge.v1;
 
 /**
  * Description:
  *
  * @author guchaolong
- * @date 2019/1/10 1:31
+ * @date 2019/1/10 1:20
  */
-public class Desktop extends Computer {
-    public Desktop(Brand brand) {
-        super(brand);
-    }
-
+public class AsusBrand implements Brand {
     @Override
     public void info() {
-        this.brand.info();
+        System.out.println("华硕品牌");
     }
 }

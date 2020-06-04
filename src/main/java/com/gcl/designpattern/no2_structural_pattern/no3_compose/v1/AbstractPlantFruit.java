@@ -8,7 +8,7 @@
  * Date          Version       Name            Description
  * 2019/1/11 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no2_structural_pattern.no3_compose;
+package com.gcl.designpattern.no2_structural_pattern.no3_compose.v1;
 
 /**
  * Description:

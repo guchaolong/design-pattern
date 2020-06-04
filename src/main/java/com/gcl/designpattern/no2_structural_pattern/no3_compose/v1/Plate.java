@@ -8,32 +8,39 @@
  * Date          Version       Name            Description
  * 2019/1/11 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no2_structural_pattern.no3_compose;
+package com.gcl.designpattern.no2_structural_pattern.no3_compose.v1;
+
+import java.util.ArrayList;
 
 /**
  * Description:
  *
  * @author guchaolong
- * @date 2019/1/11 0:57
+ * @date 2019/1/11 1:01
  */
-public class Apple extends AbstractPlantFruit {
+public class Plate extends AbstractPlantFruit {
+    private ArrayList list = new ArrayList();
     @Override
     void add(AbstractPlantFruit a) {
-        System.out.println("抛出异常，因为我是苹果，不再是一个果盘");
+        list.add(a);
     }
 
     @Override
     void remove(AbstractPlantFruit b) {
-        System.out.println("抛出异常，因为我是苹果，不再是一个果盘");
+        list.remove(b);
     }
 
     @Override
     void getOne(AbstractPlantFruit c) {
-        System.out.println("抛出异常，因为我是苹果，不再是一个果盘");
+        list.get(1);
     }
 
     @Override
     void eat() {
-        System.out.println("吃苹果");
+        for (Object obj : list){
+            ((AbstractPlantFruit)obj).eat();
+        }
     }
+
+
 }

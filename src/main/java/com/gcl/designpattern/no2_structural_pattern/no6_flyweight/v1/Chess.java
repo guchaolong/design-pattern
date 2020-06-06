@@ -8,7 +8,7 @@
  * Date          Version       Name            Description
  * 2019/6/30 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no2_structural_pattern.no6_flyweight;
+package com.gcl.designpattern.no2_structural_pattern.no6_flyweight.v1;
 
 import java.awt.*;
 

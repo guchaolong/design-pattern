@@ -8,7 +8,7 @@
  * Date          Version       Name            Description
  * 2019/1/13 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no2_structural_pattern.no7_proxy;
+package com.gcl.designpattern.no2_structural_pattern.no7_proxy.v1;
 
 /**
  * Description:

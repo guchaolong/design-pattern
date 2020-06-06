@@ -8,7 +8,7 @@
  * Date          Version       Name            Description
  * 2019/1/12 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no2_structural_pattern.no5_facade;
+package com.gcl.designpattern.no2_structural_pattern.no5_facade.v1;
 
 /**
  * Description:

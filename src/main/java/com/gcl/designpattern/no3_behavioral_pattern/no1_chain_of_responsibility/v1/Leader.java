@@ -8,7 +8,7 @@
  * Date          Version       Name            Description
  * 2019/1/14 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no3_behavioral_pattern.no1_chain_of_responsibility;
+package com.gcl.designpattern.no3_behavioral_pattern.no1_chain_of_responsibility.v1;
 
 /**
 抽象处理者

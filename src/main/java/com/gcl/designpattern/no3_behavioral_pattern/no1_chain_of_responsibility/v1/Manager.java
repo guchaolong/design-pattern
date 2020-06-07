@@ -8,19 +8,23 @@
  * Date          Version       Name            Description
  * 2019/1/14 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no3_behavioral_pattern.no1_chain_of_responsibility;
+package com.gcl.designpattern.no3_behavioral_pattern.no1_chain_of_responsibility.v1;
 
 /**
-具体审批者 主任
+ * Description:
+ *
+ * @author guchaolong
+ * @date 2019/1/14 0:33
  */
-public class Director extends Leader {
-    public Director(String name){
+public class Manager extends Leader {
+    public Manager(String name){
         super(name);
     }
+
     @Override
     public void handLeaveRequest(LeaveRequest request) {
-        if(request.getLeaveDay() < 3){
-            System.out.println("主任"+name+"审批员工"+request.getLeaveName()+"的请假条，请假天数为"+request.getLeaveDay());
+        if(request.getLeaveDay() < 10){
+            System.out.println("经理"+name+"审批员工"+request.getLeaveName()+"的请假条，请假天数为"+request.getLeaveDay());
         }
         else {
             if(this.next != null){

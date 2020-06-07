@@ -8,7 +8,7 @@
  * Date          Version       Name            Description
  * 2020/5/31 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no1_creational_pattern.no4_builder.no2;
+package com.gcl.designpattern.no1_creational_pattern.no4_builder.v2;
 
 /**
  * Description:

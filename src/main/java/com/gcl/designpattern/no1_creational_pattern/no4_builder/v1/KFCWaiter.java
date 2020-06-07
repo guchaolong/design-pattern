@@ -8,7 +8,7 @@
  * Date          Version       Name            Description
  * 2019/1/7 1.0          guchaolong          Creation File
  */
-package com.gcl.designpattern.no1_creational_pattern.no4_builder.no1;
+package com.gcl.designpattern.no1_creational_pattern.no4_builder.v1;
 
 /**
  * Description:服务员 （指挥者）

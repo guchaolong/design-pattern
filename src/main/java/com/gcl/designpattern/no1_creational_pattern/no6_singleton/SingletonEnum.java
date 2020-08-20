@@ -23,6 +23,7 @@ package com.gcl.designpattern.no1_creational_pattern.no6_singleton;
  * @date 2020/5/24 22:40
  */
 public enum SingletonEnum {
+    //
     INSTANCE;
 
     public void doSomething() {

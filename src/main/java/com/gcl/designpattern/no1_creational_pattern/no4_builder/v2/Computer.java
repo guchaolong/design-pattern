@@ -17,6 +17,7 @@ package com.gcl.designpattern.no1_creational_pattern.no4_builder.v2;
  * @date 2020/5/31 20:34
  */
 public class Computer {
+
     private final String cpu;//必须
     private final String ram;//必须
     private final int usbCount;//可选

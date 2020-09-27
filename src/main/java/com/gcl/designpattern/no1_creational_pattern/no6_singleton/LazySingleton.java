@@ -22,7 +22,7 @@ package com.gcl.designpattern.no1_creational_pattern.no6_singleton;
  * 第一次调用getInstance()方法时才生成
  */
 public class LazySingleton {
-    private static LazySingleton instance = null;
+    private volatile static LazySingleton instance = null;
 
     private LazySingleton() {
 
@@ -30,10 +30,11 @@ public class LazySingleton {
 
     /**
      * 非线程安全
+     *
      * @return
      */
-    public static LazySingleton getInstance0(){
-        if(instance == null){
+    public static LazySingleton getInstance0() {
+        if (instance == null) {
             instance = new LazySingleton();
         }
         return instance;
@@ -41,6 +42,7 @@ public class LazySingleton {
 
     /**
      * 加上synchronized，防止多线程同时首次访问,因为是加在方法上，效率不高
+     *
      * @return
      */
     public static synchronized LazySingleton getInstance() {
@@ -52,6 +54,7 @@ public class LazySingleton {
 
     /**
      * 双重检查 性能较高
+     *
      * @return
      */
     public static LazySingleton getInstance2() {

@@ -10,7 +10,6 @@
  */
 package com.gcl.designpattern.no3_behavioral_pattern.no6_memento;
 
-import lombok.Data;
 
 /**
  * Description:

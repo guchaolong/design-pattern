@@ -10,6 +10,8 @@
  */
 package com.gcl.designpattern.no1_creational_pattern.no6_singleton;
 
+import java.util.Map;
+
 /**
  * Description:
  * 不仅可以实现单例，还可以防止反序列化

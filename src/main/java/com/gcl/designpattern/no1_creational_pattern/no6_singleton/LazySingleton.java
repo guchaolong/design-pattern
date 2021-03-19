@@ -53,7 +53,14 @@ public class LazySingleton {
     }
 
     /**
-     * 双重检查 性能较高
+     * 双重检查 性能较高 DCL (double check lock)
+     * volatile一定要加
+     * 因为存在指令重排序
+     * 如：
+     * instance = new LazySingleton();
+     * 创建对象的时候 分配内存，赋默认值(半成品）->调用构造函数赋值-> 给栈用的引用instance赋值
+     * 重排序后:赋默认值(半成品）->给栈用的引用instance赋值->调用构造函数赋值
+     * 还没有真正调用构造函数，instance已经不为null了，线程2进来就能直接拿到instance了，但这个instance只是个半成品，后续使用就会有问题
      *
      * @return
      */

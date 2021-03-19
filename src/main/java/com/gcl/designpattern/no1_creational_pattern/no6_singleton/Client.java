@@ -29,5 +29,9 @@ public class Client {
         //枚举实现单例
         SingletonEnum.INSTANCE.doSomething();
 
+        EagerSingletonReadConfig cof = EagerSingletonReadConfig.getInstance();
+        System.out.println("单例读取配置" + cof.getName());
+
+
     }
 }
